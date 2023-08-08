@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "target": "es2017",
+    "outDir": "./bin",
+    "baseUrl": "./",
+    "incremental": true,
+    "module": "ESNext"
+  },
+  "exclude": ["node_modules", "dist"]
+}

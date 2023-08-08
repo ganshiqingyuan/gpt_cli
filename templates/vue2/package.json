@@ -1,0 +1,46 @@
+{
+  "name": "bw_collection",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "webpack serve --open --progress --profile --port 8088 --host 0.0.0.0 --hot --config webpackconfig/dev.js",
+    "build": "webpack --config webpackconfig/build.js"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.21.0",
+    "axios": "^1.2.0",
+    "dayjs": "^1.10.6",
+    "element-ui": "^2.15.0",
+    "vant": "^2.12.3",
+    "vue": "^2.6.8",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^3.9.0",
+    "@babel/plugin-transform-runtime": "^7.4.0",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-import": "^1.13.3",
+    "clean-webpack-plugin": "^3.0.0",
+    "core-js": "^3.8",
+    "css-loader": "~5.2.6",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "file-loader": "~6.2.0",
+    "html-webpack-plugin": "~5.3.1",
+    "less": "^3.9.0",
+    "less-loader": "~10.0.0",
+    "prettier": "^2.3.2",
+    "url-loader": "~4.1.1",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "webpack": "^5.42.1",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
