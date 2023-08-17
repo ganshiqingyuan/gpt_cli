@@ -4,7 +4,7 @@ import { Repository } from 'typeorm';
 import { {{uperName}} } from '../entity/{{name}}.entity';
 
 @Injectable()
-export class {{uperName}}RpcService {
+export class {{uperName}}BaseService {
 	constructor(
 		@InjectRepository({{uperName}})
 		private {{repositoryName}}: Repository<{{uperName}}>,

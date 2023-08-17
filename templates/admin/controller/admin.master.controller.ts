@@ -1,7 +1,7 @@
-import { Controller } from '@nestjs/common';
-import { AdminMasterService } from '../service/admin.master.api.service';
+import { Controller } from "@nestjs/common";
+import { {{uperName}}MasterService } from "../service/{{name}}.master.service";
 
-@Controller('admin')
-export class AdminMasterController {
-	constructor(private readonly adminMasterService: AdminMasterService) {}
+@Controller("{{name}}")
+export class {{uperName}}MasterController {
+  constructor(private readonly {{name}}MasterService: {{uperName}}MasterService) {}
 }

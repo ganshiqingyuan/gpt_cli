@@ -1,12 +1,12 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { Admin } from '../entity/admin.entity';
+import { {{uperName}} } from '../entity/{{name}}.entity';
 
 @Injectable()
-export class AdminApiService {
+export class {{uperName}}ApiService {
 	constructor(
-		@InjectRepository(Admin)
-		private adminRepository: Repository<Admin>,
+		@InjectRepository({{uperName}})
+		private {{repositoryName}}: Repository<{{uperName}}>,
 	) {}
 }

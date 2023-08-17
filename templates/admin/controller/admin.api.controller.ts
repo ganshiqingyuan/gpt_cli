@@ -1,7 +1,7 @@
 import { Controller } from '@nestjs/common';
-import { AdminApiService } from '../service/admin.api.service';
+import { {{uperName}}ApiService } from '../service/{{name}}.api.service';
 
-@Controller('admin')
-export class AdminApiController {
-	constructor(private readonly adminApiService: AdminApiService) {}
+@Controller('{{name}}')
+export class {{uperName}}ApiController {
+	constructor(private readonly {{name}}ApiService: {{uperName}}ApiService) {}
 }

@@ -1,39 +1,40 @@
 {
-  "name": "open-gpt-cli",
-  "version": "1.0.2",
-  "description": "gpt_cli is a tool to generate all kinds of application template",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf bin & tsc -p ./"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ganshiqingyuan/gpt_cli.git"
-  },
-  "keywords": [
-    "gpt",
-    "cli",
-    "vue2",
-    "vue3",
-    "nest"
-  ],
-  "bin": "bin/index.js",
-  "author": "ganshiqingyuan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ganshiqingyuan/gpt_cli/issues"
-  },
-  "homepage": "https://github.com/ganshiqingyuan/gpt_cli#readme",
-  "dependencies": {
-    "@types/node": "^18.15.11",
-    "fs-extra": "^11.1.1",
-    "inquirer": "^9.1.5",
-    "ora": "^6.3.0"
-  },
-  "devDependencies": {
-    "@types/fs-extra": "^11.0.1",
-    "@types/inquirer": "^9.0.3"
-  }
+	"name": "open-gpt-cli",
+	"version": "1.0.3",
+	"description": "gpt_cli is a tool to generate all kinds of application template",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc -p ./"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ganshiqingyuan/gpt_cli.git"
+	},
+	"keywords": [
+		"gpt",
+		"cli",
+		"vue2",
+		"vue3",
+		"nest"
+	],
+	"bin": "bin/index.js",
+	"author": "ganshiqingyuan",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ganshiqingyuan/gpt_cli/issues"
+	},
+	"homepage": "https://github.com/ganshiqingyuan/gpt_cli#readme",
+	"dependencies": {
+		"@types/node": "^18.15.11",
+		"fs-extra": "^11.1.1",
+		"handlebars": "^4.7.8",
+		"inquirer": "^9.1.5",
+		"ora": "^6.3.0"
+	},
+	"devDependencies": {
+		"@types/fs-extra": "^11.0.1",
+		"@types/inquirer": "^9.0.3"
+	}
 }
